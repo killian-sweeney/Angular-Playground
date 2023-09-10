@@ -7,7 +7,7 @@ $primary: rgb(111, 0, 255);
 body {
     margin: 0;
     font-family: 'Raleway';
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .container {
@@ -25,20 +25,25 @@ header {
     }
 
     a.logo {
+        font-size: 16px;
         font-weight: bold;
     }
 
 
     nav {
         float: right;
+        padding-left: 0px;
 
         ul {
             list-style-type: none;
-            margin: 0;
+            margin: 2px;
             display: flex;
+            padding-left: 0px;
 
             li a {
                 padding: 1em;
+                font-size: 12px;
+
 
                 &:hover {
                     background: darken($color: $primary, $amount: 10%);
@@ -49,5 +54,6 @@ header {
 }
 
 h1 {
+    font-size: 14px;
     margin-top: 2em;
 }
