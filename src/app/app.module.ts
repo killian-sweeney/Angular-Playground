@@ -8,12 +8,14 @@ import { ListComponent } from './component/list/list.component';
 import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule } from '@angular/common/http';
+import { TestComponent } from './component/test/test.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    ListComponent    
+    ListComponent,
+    TestComponent    
   ],
   imports: [
     BrowserModule,
